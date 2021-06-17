@@ -1,0 +1,180 @@
+#inscription{
+	color: black;
+	background-color: #ffff00;
+	margin-left: 20px;
+	margin-top: 10px;
+	height: 30px;
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 3px;
+
+}
+.main h3{
+	font-style: normal;
+	font-family:bold sans-serif;
+}
+.main{
+	background-color: lightgrey;
+	width: 50%;
+	height: 500px;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding-left: 20px;
+	padding-top: 0.5px;
+}
+.main p{
+	font-family: sans-serif;
+	font-style: italic;
+
+}
+.btn{
+	color: white;
+	background-color: #1a53ff;
+	border: none;
+	border-radius: 3px;
+	height: 35px;
+}
+#btnFacebook{
+	width: 520px;
+}
+#btnFacebook a{
+	color: white;
+}
+#form1{
+	margin-top: 50px;
+}
+#bottomField{
+	margin-top: 50px;
+}
+#bottomField input{
+	margin-left: 300px;
+	background-color:#1a53ff ;
+	color: white;
+	height: 35px;
+	border: none;
+	border-radius: 3px;
+	width: 100px;
+}
+#bottomField a{
+	color: black;
+}
+a: hover{
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+}
+.input-group input{
+	width: 520px;
+	height: 35px;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+.input-group label{
+	font-family: bold sans-serif;
+    font-weight: bold;
+}
+#form2{
+	background-color: lightgrey;
+	width: 560px;
+	
+}
+#main2{
+	margin-left: 30px;
+	
+	margin-bottom: 200px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.pageInscription{
+	display: flex;
+	margin: 40px;
+}
+.input-group1 input{
+	width: 250px;
+	height: 35px;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+#labelNom{
+	margin-left: 232px;
+}
+#nom{
+	float: right;
+}
+label{
+	font-family: bold sans-serif;
+	font-weight: bold;
+}
+.tel{
+	display: flex;
+	margin-top: 5px;
+}
+#indicatif{
+	background-color: lightgrey;
+	border: 0.5px solid grey;
+	border-radius: 3px;
+	width: 100px;
+}
+#indicatif span{
+	float: right;
+	margin-top: 10px;
+}
+#tel{
+	width: 460px;
+}
+#tel:focus{
+	border-color: #1a53ff;
+}
+#form2 a{
+	font-family: bold sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-top: 200px;
+}
+#form2 input[type="submit"]{
+	color: white;
+	background-color: #1a53ff ;
+	margin-top: 60px;
+	width: 100px;
+	margin-left: 460px;
+}
+.password-icon{
+	top: 50%;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	transform: translate(-50%);
+	width: 20px;
+	color: #0f0f0f;
+	margin-left: 490px;
+	transition: all 0.2s;
+}
+.password-icon:hover{
+	cursor: pointer;
+	color: #1a53ff;
+}
+#eye2{
+	display: none;
+}
+input:focus{
+	border: 1px solid #1a53ff;
+}
+#error1{
+	color: red;
+	margin-left: 500px;
+	position: absolute;
+	margin-top: 10px;
+	display: none;
+}
+#valid1{
+	color: green;
+	margin-left: 490px;
+	position: absolute;
+	margin-top: 10px;
+	display: none;
+	
+}
