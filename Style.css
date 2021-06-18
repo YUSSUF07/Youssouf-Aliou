@@ -1,0 +1,35 @@
+*{
+    color: black;
+}
+.section{
+    display: flex;
+}
+.section2{
+    padding: 5%;
+    margin: 5%;
+    width: 20%;
+    height: 30%;
+    background-color:rgba(128, 128, 128, 0.534);
+    border-radius: 5%;
+    justify-content: space-around;
+}
+.section1{
+    padding: 5%;
+    margin: 5%;
+    width: 20%;
+    height: 30%;
+    background-color:rgb(128, 128, 128, 0.534);
+    border-radius: 5%;
+}
+.formulaire1{
+    color: white;
+    border-radius: 5%;
+}
+.formulaire2{
+    color: white;
+    border-radius: 5%;
+}
+.facebook{
+    color: blue;
+    border-radius: 5%;
+}
